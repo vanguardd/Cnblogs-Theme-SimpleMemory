@@ -89,6 +89,7 @@ $(document).ready(function(){
     } else {
         bottom_html += '<span style="font-weight: bold; white-space:nowrap;">声援博主</span>：如果您觉得文章对您有帮助，可以点击文章右下角<strong><span style="color: #ff0000; font-size: 12pt;">【<a id="post-up" onclick="votePost('+uid+',\'Digg\')" href="javascript:void(0);">推荐</a>】</span></strong>一下。您的鼓励是博主的最大动力！';
     }
+	bottom_html += '<div style="text-align: center; margin-top: 10px"><img src="https://img2018.cnblogs.com/blog/925658/201903/925658-20190318153551385-1000612178.jpg" alt="个人微信公众号:Java Thinking"></div>';
     bottom_html += '<br>';
     bottom_html += '</p>';
     $("#cnblogs_post_body").append(bottom_html);
